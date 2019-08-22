@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">智慧农贸-扫码</string>
+    <string name="autoline"><u>修改</u></string>
+    <string name="delete"><u>删除</u></string>
+</resources>

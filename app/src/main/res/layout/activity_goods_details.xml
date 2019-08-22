@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.GoodsDetailsActivity">
+
+    <include layout="@layout/public_common_title"/>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/details_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/timg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:textColor="@color/black_666"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="类型："
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/goods_type"
+                android:paddingRight="40dp"
+                android:textColor="@color/black"
+                android:paddingLeft="18dp"
+                android:layout_weight="2"
+                android:text="蔬菜"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black_666"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="名称："
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/goods_name"
+                android:paddingRight="40dp"
+                android:textColor="@color/black"
+                android:paddingLeft="18dp"
+                android:layout_weight="2"
+                android:text="大白菜"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black_666"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="编号："
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/good_code"
+                android:paddingRight="40dp"
+                android:textColor="@color/black"
+                android:paddingLeft="18dp"
+                android:layout_weight="2"
+                android:text="001"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black_666"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="价格/kg："
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prices_tv"
+                android:textColor="@color/black"
+                android:paddingLeft="18dp"
+                android:layout_weight="1"
+                android:text="10元"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+              <ImageView
+                  android:id="@+id/prices_iv"
+                  android:src="@mipmap/xiugai"
+                  android:layout_weight="1"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black_666"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="折扣价/kg："
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/discount_prices_tv"
+                android:textColor="@color/black"
+                android:paddingLeft="18dp"
+                android:layout_weight="1"
+                android:text="8元"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/discount_prices_iv"
+                android:src="@mipmap/xiugai"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@color/black_666"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:text="快捷键操作："
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:id="@+id/shortcut_keys"
+                android:textColor="@color/black"
+                android:paddingLeft="18dp"
+                android:layout_weight="1"
+                android:text="1"
+                android:textSize="18sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/shortcut_keys_iv"
+                android:src="@mipmap/key_img"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/goods_delete"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="120dp"
+            android:background="@color/colorAccent"
+            android:text="删除商品"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+    </LinearLayout>
+</LinearLayout>

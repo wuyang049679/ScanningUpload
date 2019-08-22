@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dialog_height">200dp</dimen>
+    <dimen name="dialog_witch">300dp</dimen>
+    <dimen name="progress_witch">100dp</dimen>
+
+</resources>
